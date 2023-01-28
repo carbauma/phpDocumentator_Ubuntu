@@ -23,6 +23,11 @@ sudo apt install git
 * Visual Studio Code (
 [Instalación como paquete deb](https://www.robertoserrano.pro/blog/instalacion-de-visual-studio-code-en-ubuntu-20-04/))
 
+* Instalamos Simplexml
+```
+sudo apt install php-xml
+```
+
 Una vez hecho esto, generamos una clave ssh:
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
